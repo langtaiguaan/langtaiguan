@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src='js/jquery.min.js'></script>
+    <script src='js/popper.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="header">
+            <img src="../images/login/logo.gif" />
+            <span>免费注册</span>
+        </div>
+        <div class="reg">
+            <ul class="nav">
+                <li class="active">
+                    <span><i>1</i>手机号码验证</span>
+                </li>
+                <li >
+                    <span><i>2</i>设置密码</span>
+                </li>
+                <li >
+                    <span><i>3</i>完成</span>
+                </li>
+            </ul>
+            <div class="formarea">
+                <dl>
+                    <dt>手机号码</dt>
+                    <dd>
+                        <input type="text" class="text" value="请输入你的手机号码" id="mobile" maxlength="11" onfocus="if (value =='请输入你的手机号码'){value =''}" onblur="if (value ==''){value='请输入你的手机号码'}">
+                        <span class="wtip wrong" id="mobilewrong"><i class="wico"></i>手机格式填错啦</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>短信验证码</dt>
+                    <dd>
+                        <input type="text" class="text text2" id="'mark">
+                        <input type="button" value="点击获取验证码" class="btn2 op8" id="getMobileVerify" style="background: rgb(212, 211, 211);">
+                        <span class="wtip" id="mobileError"><i class="wico"></i>请输入正确的验证码</span>
+                    </dd>
+                </dl>
+                <dl class="tm10 clearfix">
+                    <dt></dt>
+                    <dd><input type="checkbox" class="checkbox" id="checkboxReg" name="checkboxReg" checked="">我已阅读并同意<a href="#" target="_blank" class="c2">《泰康在线会员服务协议》</a></dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt></dt>
+                    <dd><input type="button" value="下一步" class="btn1 op8" id="nextStep" style="background: rgb(212, 211, 211);"></dd>
+                </dl>
+                <dl class="tm10 clearfix">
+                    <dt></dt>
+                    <dd class="tc">已有帐号，<a href="./loginin.html" class="c2">立即登录</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer">
+            <p>版权所有 © 泰康在线财产保险股份有限公司未经许可不得复制、转载或摘编，违者必究!</p>
+            <p>京ICP备09074081号-19 Copyright © Tk.cn Insurance CO.,LTD. All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<script>
+    window.onload=function(){
+
+    }
+
+</script>
+</body>
+</html>

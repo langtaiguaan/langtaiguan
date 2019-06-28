@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src='js/jquery.min.js'></script>
+    <script src='js/popper.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/points.css"/>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="w1000">
+        <!--顶部-->
+        <div class="top-bar d-flex">
+            <div class="top-bar-back">
+                <a href="javascript:;">
+                    返回泰康在线首页
+                </a>
+            </div>
+            <div class="top-bar-login">
+                <a href="javascript:;">[登录]</a>
+                <a href="javascript:;">[注册]</a>
+                <span class="top-bar-shu"> | </span>
+                <span class="top-bar-hottel">
+                    40000-95522
+                </span>
+            </div>
+        </div>
+        <!--搜索-->
+        <div class="header d-flex">
+            <div class="header-logo">
+                <a href="main.html">
+                    <img  src="../images/points/logo.png" alt="1"/>
+                </a>
+            </div>
+            <div class="search d-flex">
+                <div class="search-score d-flex">
+                    <h4 class="search-score-h4 dropdown-toggle" data-toggle="dropdown">
+                        积分范围
+                    </h4>
+                    <ul class="dropdown-menu list-unstyled ">
+                        <li class="dropdown-item active"><a href="#">0-5000</a></li>
+                        <li ><a href="#" class="dropdown-item ">5001-10000</a></li>
+                        <li class="dropdown-item"><a href="#" >10001-20000</a></li>
+                        <li><a href="#" class="dropdown-item">20001-30000</a></li>
+                        <li><a href="#" class="dropdown-item disabled">30001-50000</a></li>
+                        <li><a href="#" class="dropdown-item disabled">50001-10万</a></li>
+                        <li><a href="#" class="dropdown-item disabled">10万分以上</a></li>
+                    </ul>
+                </div>
+                <div class="search-type d-flex">
+                    <h4 class="search-score-h4 dropdown-toggle" data-toggle="dropdown">
+                        商品类别
+                    </h4>
+                    <ul class="dropdown-menu list-unstyled ">
+                        <li class="dropdown-item active"><a href="#">家居日用</a></li>
+                        <li ><a href="#" class="dropdown-item ">家用电器</a></li>
+                        <li class="dropdown-item"><a  href="#" >厨具卫浴</a></li>
+                        <li><a href="#" class="dropdown-item">健康个护</a></li>
+                        <li><a href="#" class="dropdown-item ">数码娱乐</a></li>
+                        <li><a href="#" class="dropdown-item ">箱包皮具</a></li>
+                        <li><a href="#" class="dropdown-item ">户外运动</a></li>
+                        <li><a href="#" class="dropdown-item ">母婴用品</a></li>
+                        <li><a href="#" class="dropdown-item ">商品办公</a></li>
+                        <li><a href="#" class="dropdown-item ">汽车用品</a></li>
+                        <li><a href="#" class="dropdown-item ">虚拟电子</a></li>
+                    </ul>
+                </div>
+                <img class="search-input-img" src="../images/points/icon_search.jpg" alt="1"/>
+                <input type="text" class="search-keyword" value="请输入关键字" onblur="if(this.value==''){this.value='请输入关键字'}" onclick="if(this.value==='请输入关键字'){this.value=''}"/>
+                <input type="button" class="search-btn" value="搜索"/>
+            </div>
+            <!--购物车-->
+            <div class="headerCart">
+                <div class="cart">
+                    <div class="cart-number">
+                        <span>购物车（<b>0</b>）件 &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nav-->
+        <div class="topnav">
+            <ul class="topnav-ul">
+                <li class="home_topnavIndex"><a href="main.html">首页</a></li>
+                <li><a href="#">精品推荐</a></li>
+                <li><a href="#">新品速递</a></li>
+                <li><a href="#">热门抢兑</a></li>
+                <li><a href="#">小额换礼</a></li>
+                <li><a href="#">小额换礼</a></li>
+                <li><a href="#">缤纷活动</a></li>
+                <li><a href="#">我的积分</a></li>
+                <li class="topnav-help"><a href="#">帮助</a></li>
+            </ul>
+        </div>
+        <!--main-fenlei-->
+        <div class="main-fenlei">
+            <!--leftside-->
+            <div class="main-leftSide">
+                <div class="leftSide">
+                    <div class="leftSide-all"><span>全部商品分类</span></div>
+                    <!--种类-->
+                    <ul>
+                        <li><a href="javascript:;" class="box-opt">所有商品</a></li>
+                        <li><a href="javascript:;" class="box-opt t2">家居日用</a></li>
+                        <li><a href="javascript:;" class="box-opt t3">家用电器</a></li>
+                        <li><a href="javascript:;" class="box-opt t4">厨具卫浴</a></li>
+                        <li><a href="javascript:;" class="box-opt t5">健康个护</a></li>
+                        <li><a href="javascript:;" class="box-opt t6">数码娱乐</a></li>
+                        <li><a href="javascript:;" class="box-opt t7">箱包皮具</a></li>
+                        <li><a href="javascript:;" class="box-opt t8">户外运动</a></li>
+                        <li><a href="javascript:;" class="box-opt t9">母婴用品</a></li>
+                        <li><a href="javascript:;" class="box-opt t10">商旅办公</a></li>
+                        <li><a href="javascript:;" class="box-opt t11">汽车用品</a></li>
+                        <li><a href="javascript:;" class="box-opt t12">虚拟电子</a></li>
+                    </ul>
+                </div>
+                <!--奖品例子-->
+                <div class="exchange">
+                    <div class="exchange-title">兑换奖品榜</div>
+                    <div class="exchange-box">
+                        <ul>
+                            <li class="exchange-list">
+                                <img src="../images/points/201403260441332547.jpg_120_120.jpg" alt=""/>
+                                <div class="exchange-list-t">
+                                    <h1>
+                                        <a href="javascript:;">明家（MIG）SP-532A 5位总控儿童防触电创意五色花插座 2米</a>
+                                    </h1>
+                                    <p>
+                                        积分
+                                        <span class="pro-price">5000分</span>
+                                    </p>
+                                    <a href="javascript:;" class="btn-login">兑换</a>
+                                </div>
+                            </li>
+                            <li class="exchange-list">
+                                <img src="../images/points/201311220451343195.jpg_120_120.jpg" alt=""/>
+                                <div class="exchange-list-t">
+                                    <h1>
+                                        <a href="javascript:;">沙宣袋装万用造型发梳</a>
+                                    </h1>
+                                    <p>
+                                        积分
+                                        <span class="pro-price">3000分</span>
+                                    </p>
+                                    <a href="javascript:;" class="btn-login">兑换</a>
+                                </div>
+                            </li>
+                            <li class="exchange-list">
+                                <img src="../images/points/201312060121448453.jpg_120_120.jpg" alt=""/>
+                                <div class="exchange-list-t">
+                                    <h1>
+                                        <a href="javascript:;">1.8L不锈钢电热水壶</a>
+                                    </h1>
+                                    <p>
+                                        积分
+                                        <span class="pro-price">8100分</span>
+                                    </p>
+                                    <a href="javascript:;" class="btn-login">兑换</a>
+                                </div>
+                            </li>
+                            <li class="exchange-list">
+                                <img src="../images/points/201403270220003310.jpg_120_120.jpg" alt=""/>
+                                <div class="exchange-list-t">
+                                    <h1>
+                                        <a href="javascript:;">力开利郎38L登山背包</a>
+                                    </h1>
+                                    <p>
+                                        积分
+                                        <span class="pro-price">11000分</span>
+                                    </p>
+                                    <a href="javascript:;" class="btn-login">兑换</a>
+                                </div>
+                            </li>
+                            <li class="exchange-list">
+                                <img src="../images/points/201311220445205623.jpg_120_120.jpg"/>
+                                <div class="exchange-list-t">
+                                    <h1>
+                                        <a href="javascript:;">阳江指甲钳套装D1148</a>
+                                    </h1>
+                                    <p>
+                                        积分
+                                        <span class="pro-price">3500分</span>
+                                    </p>
+                                    <a href="javascript:;" class="btn-login">兑换</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--rightside-->
+            <div class="rightSide myhide">
+                <!--公告资讯-->
+               <div class="main-right">
+                   <div class="banner-index">
+                       <img src="../images/points/201712151103035859.png" />
+                   </div>
+                   <div class="right-tknews">
+                       <div class="loginbox">
+                           <div>
+                               <a class="btn-login" href="login.html">登录</a>
+                           </div>
+                           <a href="loginin.html" class="btn-login">注册</a>
+                       </div>
+                       <div class="tknews">
+                           <div class="tknews-top">
+                               <div class="news">泰康快讯</div>
+                               <a href="javascript:;">更多资讯》</a>
+                           </div>
+                           <ul class="message">
+                               <li>
+                                   <span>·</span>
+                                   <a href="javascript:;">泰康在线正式发布车险开启互联网健康</a>
+                               </li>
+                               <li>
+                                   <span>·</span>
+                                   <a href="javascript:;">泰康在线与江苏省体育场馆协会达成战略合作</a>
+                               </li>
+                               <li>
+                                   <span>·</span>
+                                   <a href="javascript:;">800人听的热血沸腾来听听陈东升讲了什么？</a>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+                <!--奖品推荐-->
+                <div class="pro-zone">
+                    <div class="pro-zone-list">
+                        <div>精品推荐</div>
+                        <a href="javascript:;">查看更多>></a>
+                    </div>
+                    <div class="pro-zone-list newpro">
+                        <div>新品速递</div>
+                        <a href="javascript:;">查看更多>></a>
+                    </div>
+                    <div class="pro-zone-list timed">
+                        <div>精品推荐</div>
+                        <a href="javascript:;">查看更多>></a>
+                    </div>
+                    <div class="pro-zone-list gift">
+                        <div>新品速递</div>
+                        <a href="javascript:;">查看更多>></a>
+                    </div>
+                </div>
+            </div>
+            <div class=" rightlist">
+                <img src="../images/points/201408290341193546.png"/>
+                <div class="brand-class">
+                    <span>品牌分类</span>
+                    <ul class="brand-type">
+                        <li class="brandAll"><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">瑞士军刀</a></li>
+                        <li><a href="javascript:;">双立人</a></li>
+                        <li><a href="javascript:;">倍轻松</a></li>
+                    </ul>
+                </div>
+                <div class="orderBy">
+                    <span>排序：</span>
+                    <p>积分</p>
+                    <p>名称</p>
+                </div>
+                <!--兑换商品-->
+                <div class="pro-list">
+                    <ul class="pro-list-ul">
+                        <li>
+                            <a href="javascript:;" title="哈尔斯1200ml不锈钢真空保温旅行壶LMY-1200W-2">
+                                <img  src="../images/points/106.jpg">
+                            </a>
+                            <p>
+                                <a href="javascript:;">哈尔斯1200ml不锈钢真空保温旅行壶LMY-1200W-2</a>
+                            </p>
+                            <p>
+                                积分：
+                                <span class="pro-price">11000分</span>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="哈尔斯430ml不锈钢真空保温旅行杯HD-430-25">
+                                <img src="../images/points/107.jpg">
+                            </a>
+                            <p>
+                                <a href="javascript:;">哈尔斯430ml不锈钢真空保温旅行杯HD-430-25</a>
+                            </p>
+                            <p>
+                                积分：<span class="pro-price">9900分</span>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔美味系列全智能电压力锅CYSB50YCD10DQ">
+                                <img src="../images/points/112.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔美味系列全智能电压力锅CYSB50YCD10DQ</a></p>
+                            <p>积分：<span class="pro-price">42800分</span></p>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" title="倍轻松（breo） 按摩器 Mini339 颈部肩部 腰部按摩">
+                                <img src="../images/points/109.jpg">
+                            </a>
+                            <p><a href="javascript:;">倍轻松（breo） 按摩器 Mini339 颈部肩部 腰部按摩</a></p>
+                            <p>积分：<span class="pro-price">9800分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="瑞士军刀双肩背包 SA-9508">
+                                <img src="../images/points/110.jpg">
+                            </a>
+                            <p><a href="javascript:;">瑞士军刀双肩背包 SA-9508</a></p>
+                            <p>积分：<span class="pro-price">25200分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔电饭煲CFXB40FC29-75">
+                                <img src="../images/points/111.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔电饭煲CFXB40FC29-75</a></p>
+                            <p>积分：<span class="pro-price">29900分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔原汁机SJ09-200">
+                                <img src="../images/points/108.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔原汁机SJ09-200</a></p>
+                            <p>积分：<span class="pro-price">48900分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔电水壶SWF17S10A">
+                                <img src="../images/points/117.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔电水壶SWF17S10A</a></p>
+                            <p>积分：<span class="pro-price">25900分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="Confianca兰花味洁净香皂150克">
+                                <img src="../images/points/114.jpg">
+                            </a>
+                            <p><a href="javascript:;">Confianca兰花味洁净香皂150克</a></p>
+                            <p>积分：<span class="pro-price">9900分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔煎烤机（美食家系列）JJ34D02">
+                                <img src="../images/points/115.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔煎烤机（美食家系列）JJ34D02</a></p>
+                            <p>积分：<span class="pro-price">32500分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="苏泊尔全自动精磨多功能豆浆机DJ12B-M01">
+                                <img src="../images/points/116.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔全自动精磨多功能豆浆机DJ12B-M01</a></p>
+                            <p>积分：<span class="pro-price">69900分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="泰康20周年典藏版版八极元普洱茶">
+                                <img src="../images/points/113.jpg">
+                            </a>
+                            <p><a href="javascript:;">泰康20周年典藏版版八极元普洱茶</a></p>
+                            <p>积分：<span class="pro-price">47900分</span></p>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" title="苏泊尔电饭煲CFXB40FC3033-75">
+                                <img src="../images/points/118.jpg">
+                            </a>
+                            <p><a href="javascript:;">苏泊尔电饭煲CFXB40FC3033-75</a></p>
+                            <p>积分：<span class="pro-price">37800分</span></p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="双立人TWIN IVI GL 炖锅(16cm) ZW-C31">
+                                <img src="../images/points/119.jpg">
+                            </a>
+                            <p><a href="javascript:;">双立人TWIN IVI GL 炖锅(16cm) ZW-C31</a></p>
+                            <p>积分：<span class="pro-price">59500分</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="jifen">
+                <ul class="footer-jifen">
+                    <li class="jifento">
+                        <a href="javascript:;">赚积分</a>
+                    </li>
+                    <li class="jifento hjf">
+                        <a href="javascript:;">花积分</a>
+                    </li>
+                    <li class="jifento flow">
+                        <a href="javascript:;">兑换流程</a>
+                    </li>
+                    <li class="jifento plan">
+                        <a href="javascript:;">积分计划</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dott">
+                <p>中国保险行业协会人身保险产品查询</p>
+                <p>
+                    版权所有 © 泰康在线财产保险股份有限公司未经许可不得复制、转载或摘编，违者必究!
+                </p>
+                <p>
+                    Copyright © Tk.cn Insurance CO.,LTD. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

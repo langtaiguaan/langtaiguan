@@ -1,0 +1,60 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+        padding:0;
+    }
+}
+.container{width:1200px;}
+ul,li,ol{list-style:none;}
+.ver-nav-ul li:hover a{
+    text-decoration: none;
+    color:#f60;
+}
+.ver-nav-ul li>a{
+    color:#888;
+}
+.grey{
+    background-color: grey;
+    margin:0 auto;
+    text-align: center;
+    padding:10px 0 300px 0;
+}
+.verify-main{
+    margin: 0 auto;
+    width:910px;
+    border:none;
+    color:#888;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    background: #f8f8f6;
+    padding:25px 0 50px 0;
+}
+.kehufuwu{
+    color:#fff;
+    font-size: 18px;
+    line-height: 30px;
+    background:url('../../images/section/section1/orange.gif') no-repeat;
+}
+.kefufuwu-img{
+    margin-top: 40px;
+}
+.ver-nav{
+    border-bottom: 1px solid #c2c2c2;
+}
+.ver-nav-ul{
+    display: flex;
+}
+.ver-nav-ul li{
+    margin: 5px 20px;
+}
+.baodan{
+    width:600px;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+    line-height: 30px;
+    padding: 10px;
+}
+.ver-main-left,.ver-main-right{
+    padding: 20px;
+}

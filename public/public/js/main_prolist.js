@@ -1,0 +1,23 @@
+$(function(){
+    $('.main-ul').on('mouseenter','.main-li',function(){
+        $this=$(this);
+        $this.addClass('main-ul-li-hover').siblings('.main-li').removeClass('main-ul-li-hover');
+        $this.children('.listing-sale').removeClass('myhide').addClass('myshow')
+    });
+    $('.main-ul').on('mouseleave','.main-li',function(){
+        $this=$(this);
+        $this.removeClass('main-ul-li-hover');
+        $this.children('.listing-sale').removeClass('myshow').addClass('myhide')
+    });
+    $('.list-tabs-ul').on('mouseenter','li',function(){
+        $this=$(this);
+        $this.addClass("act-sales").siblings('li').removeClass('act-sales');
+        $(`#${$this.attr('data-target')}`).removeClass('myhide').addClass('myshow').siblings(".uu2").removeClass("myshow").addClass("myhide")
+    });
+    $('#internet1').on("click",'li',function(){
+        $this=$(this);
+        $this.addClass("pertabact").children("img").removeClass("myhide");
+        $this.siblings("li").removeClass("pertabact").children("img").addClass("myhide");
+        $(`#${$this.attr('data-target')}`).removeClass("myhide").siblings('[data-target=slider]').addClass("myhide");
+    })
+});

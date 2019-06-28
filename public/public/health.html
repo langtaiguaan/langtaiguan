@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src='js/jquery.min.js'></script>
+    <script src='js/popper.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/health.css"/>
+    <link rel="stylesheet" href="css/comm.css"/>
+</head>
+<body>
+<header id="header" class="container"></header>
+<div class="container">
+    <div class="w1000">
+        <div class="way">
+            <span>您当前的位置：</span>
+            <a href="javascript:;">首页</a>
+            <span> > 健康险</span>
+        </div>
+        <div class="main d-flex">
+            <div class="main-left">
+                <div class="filtrate">
+                    <div class="filtrate-title d-flex">
+                        <h4 class="filtrate-h4">
+                           健康险产品筛选
+                        </h4>
+                        <span class="filtrate-reset">
+                             <img src="../images/health/refresh.jpg" alt="1"/>
+                              重新筛选
+                        </span>
+                    </div>
+                    <div class="filtrate-list">
+                        <!--消费类型-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">消费类型:</p>
+                            </div>
+                            <ul class="item-ul">
+                                <li class="active">
+                                    <a class="itemA" href="">不限</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">消费型</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">返回型</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--等待期-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">等&nbsp;待&nbsp;期&nbsp; :</p>
+                            </div>
+                            <ul class="item-ul">
+                                <li class="active">
+                                    <a class="itemA" href="">不限</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">30天</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">90天</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">180天</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">2年</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">60天</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">3年</a>
+                                </li>
+                            </ul>
+                            <p class="itemA-p">
+                                <a href="javascript:;">隐藏</a>
+                                <span><img src="" alt=""/></span>
+                            </p>
+                        </div>
+                        <!--性别-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">性 &nbsp;&nbsp; &nbsp;别 &nbsp;:</p>
+                            </div>
+                            <ul class="item-ul">
+                                <li class="active">
+                                    <a class="itemA" href="">不限</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">男</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">女</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--保障年龄-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">保障年龄:</p>
+                            </div>
+                            <ul class="item-ul">
+                                <li class="active">
+                                    <a class="itemA" href="">不限</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">0-50岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">18-50岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">0-64岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">0-17岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">66-80岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">18-65岁</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a class="itemA" href="">18-60岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">0-75岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">30天-14周岁</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">30天-60周岁</a>
+                                </li>
+                            </ul>
+                            <p class="itemA-p">
+                                <a href="javascript:;">隐藏</a>
+                                <span><img src="" alt=""/></span>
+                            </p>
+                        </div>
+                        <!--保障年龄段-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">保障年龄:</p>
+                            </div>
+                            <ul class="item-ul">
+                                <li class="active">
+                                    <a class="itemA" href="">不限</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">终身</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">定期</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">1年</a>
+                                </li>
+                                <li>
+                                    <a class="itemA" href="">70/80/90/105周岁</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--更多选项-->
+                        <div class="list-item d-flex">
+                            <div class="item">
+                                <p class="item-p">更多选项:</p>
+                            </div>
+                            <div class="item-more">
+                                <a href="#" class="itemA-sp1">保障类型:</a>
+                                <ul class="item-ul item-bzlx">
+                                    <li class="active">
+                                        <a class="itemA" href="">不限</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">费用报销</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">重大疾病</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">防癌保障</a>
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        <a class="itemA" href="">住院津贴</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">高端医疗</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">两全保险</a>
+                                    </li>
+                                    <li>
+                                        <a class="itemA" href="">豁免责任</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--product-->
+                <div class="product">
+                    <div class="sort-div d-flex">
+                        <ul class="sort d-flex">
+                            <li>排序 </li>
+                            <li class="sort-active">默认 </li>
+                            <li>
+                                价格<img src="../images/health/arrow1.png" alt="1"/>
+                            </li>
+                            <li>销量<img src="../images/health/arrow1.png" alt="1"/> </li>
+                        </ul>
+                        <div class="paging d-flex">
+                            <span class="sort-page">1/3</span>
+                            <a href=""><</a>
+                            <a href="">></a>
+                        </div>
+                    </div>
+                <!--product-box1-->
+                    <div class="product-box">
+                        <div class="product-box-left">
+                            <h6 class="product-box-left-title">
+                                <a href="" class="text">泰无忧·百万防癌保</a>
+                                <a href="">
+                                    <img src="../images/health/icon-qq.gif" alt="1"/>
+                                </a>
+                            </h6>
+                            <div class="product-box-left-bd">
+                                <div class="imgbox">
+                                    <a href="">
+                                        <img src="../images/health/o9Lx630u.jpg" alt="1"/>
+                                    </a>
+                                </div>
+                                <div class="product-desc">
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">投保年龄</span>
+                                            <span class="TypeAgu">30天（含）-80周岁（含）</span>
+                                        </p>
+                                        <p>
+                                            <span class="Type">保障期限</span>
+                                            <span class="TypeAgu">1年</span>
+                                        </p>
+                                    </div>
+                                    <div class="desc-box">
+                                        <p class="desc text2">三高、糖尿病、80岁均可投保；0免赔，最高可保400万</p>
+                                    </div>
+                                    <div class="product-box-bd">
+                                        <p>三高、糖尿病、80岁均可投保</p>
+                                        <p>0免赔，最高可保400万</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box-left-ft">
+                                <span>三高、糖尿病、80岁均可投保</span>
+                                <span>0免赔，最高可保400万</span>
+                            </div>
+                        </div>
+                        <div class="product-box-right">
+                            <div class="price">
+                                <span class="style">￥ 85</span>
+                                <span class="style1"> /起</span>
+                            </div>
+                            <div>
+                                <button class="product-box-right-button">去看看</button>
+                            </div>
+                            <div class="product-box-right-ft">
+                                <p>
+                                    <span>近期销量：</span>
+                                    <span>140单</span>
+                                </p>
+                                <p>近期评论
+                                <span>条</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                <!--product-box2-->
+                    <div class="product-box">
+                        <div class="product-box-left">
+                            <h6 class="product-box-left-title">
+                                <a href="" class="text">泰无忧·海外医疗保</a>
+                                <a href="">
+                                    <img src="../images/health/icon-qq.gif" alt="1"/>
+                                </a>
+                            </h6>
+                            <div class="product-box-left-bd">
+                                <div class="imgbox">
+                                    <a href="">
+                                        <img src="../images/health/5sLH075M.jpg" alt="1"/>
+                                    </a>
+                                </div>
+                                <div class="product-desc">
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">投保年龄</span>
+                                            <span class="TypeAgu">30天（含）-65周岁（含）</span>
+                                        </p>
+                                        <p>
+                                            <span class="Type">保障期限</span>
+                                            <span class="TypeAgu">1年</span>
+                                        </p>
+                                    </div>
+                                    <div class="desc-box">
+                                        <p class="desc text2">去全球顶级医院，享全程医疗服务</p>
+                                    </div>
+                                    <div class="product-box-bd">
+                                        <p>去全球顶级医院，享全程医疗服务</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box-left-ft">
+                                <span>海外高端医院服务，最高保障600万元</span>
+                            </div>
+                        </div>
+                        <div class="product-box-right">
+                            <div class="price">
+                                <span class="style">￥ 576</span>
+                                <span class="style1"> /起</span>
+                            </div>
+                            <div>
+                                <button class="product-box-right-button">去看看</button>
+                            </div>
+                            <div class="product-box-right-ft">
+                                <p>
+                                    <span>近期销量：</span>
+                                    <span>38单</span>
+                                </p>
+                                <p>近期评论
+                                    <span>条</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                <!--product-box3-->
+                    <div class="product-box">
+                        <div class="product-box-left">
+                            <h6 class="product-box-left-title">
+                                <a href="" class="text">泰康康护一生重大疾病产品保险计划</a>
+                                <a href="">
+                                    <img src="../images/health/icon-qq.gif" alt="1"/>
+                                </a>
+                            </h6>
+                            <div class="product-box-left-bd">
+                                <div class="imgbox">
+                                    <a href="">
+                                        <img src="../images/health/hnA8fA0N.jpg" alt="1"/>
+                                    </a>
+                                </div>
+                                <div class="product-desc">
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">投保年龄</span>
+                                            <span class="TypeAgu">30天（含）-80周岁（含）</span>
+                                        </p>
+                                    </div>
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">保障期限</span>
+                                            <span class="TypeAgu">保至70/80/90/105周岁</span>
+                                        </p>
+                                    </div>
+                                    <div class="desc-box">
+                                        <p class="desc text2">100种疾病，免体检最高可投45万;最高保障到105岁，</p>
+                                        <p class="desc text2">满期100%给付保额</p>
+                                    </div>
+                                    <div class="product-box-bd">
+                                        <p>重大疾病（70种）+轻症（30种*赔3次）</p>
+                                        <p>身故保险金，满期给付保额</p>
+                                        <p>投保人豁免+被保险人轻症豁免</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box-left-ft">
+                                <span>70种重疾</span>
+                                <span>30种轻症</span>
+                                <span>身故/高残保险金</span>
+                                <span>满期给付保额</span>
+                            </div>
+                        </div>
+                        <div class="product-box-right">
+                            <div class="price">
+                                <span class="style">￥ 94</span><span class="style1">/</span><span class="style">元</span><span class="style1">起</span>
+                            </div>
+                            <div>
+                                <button class="product-box-right-button">去看看</button>
+                            </div>
+                            <div class="product-box-right-ft">
+                                <p>
+                                    <span>近期销量：</span>
+                                    <span>8371单</span>
+                                </p>
+                                <p>近期评论
+                                    <span>1861条</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                <!--product-box4-->
+                    <div class="product-box product-box-border2">
+                        <div class="product-box-left">
+                            <h6 class="product-box-left-title">
+                                <a href="" class="text">e无忧·泰康住院保</a>
+                                <a href="">
+                                    <img src="../images/health/icon-qq.gif" alt="1"/>
+                                </a>
+                            </h6>
+                            <div class="product-box-left-bd">
+                                <div class="imgbox">
+                                    <a href="">
+                                        <img src="../images/health/Z5JG75A4.jpg" alt="1"/>
+                                    </a>
+                                </div>
+                                <div class="product-desc">
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">投保年龄</span>
+                                            <span class="TypeAgu">30天-65周岁 (限社保人群)</span>
+                                        </p>
+                                        <p>
+                                            <span class="Type">保障期限</span>
+                                            <span class="TypeAgu">1年</span>
+                                        </p>
+                                    </div>
+                                    <div class="desc-box">
+                                        <p class="desc text2">意外身故、伤残，住院医疗都保障，低免赔！</p>
+                                    </div>
+                                    <div class="product-box-bd">
+                                        <p>意外身故、伤残，住院医疗都保障，低免赔！</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box-left-ft">
+                                <span>意外身故、伤残，住院医疗都保障，低免赔！</span>
+                            </div>
+                        </div>
+                        <div class="product-box-right">
+                            <div class="price">
+                                <span class="style">￥ 269</span><span class="style1">/</span><span class="style">年</span><span class="style1">起</span>
+                            </div>
+                            <div>
+                                <button class="product-box-right-button">去看看</button>
+                            </div>
+                            <div class="product-box-right-ft">
+                                <p>
+                                    <span>近期销量：</span>
+                                    <span>12768单</span>
+                                </p>
+                                <p>近期评论
+                                    <span>3181条</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                 <!--product-box5-->
+                    <div class="product-box product-box-border2">
+                        <div class="product-box-left">
+                            <h6 class="product-box-left-title">
+                                <a href="" class="text">e无忧·泰康少儿重疾保</a>
+                                <a href="">
+                                    <img src="../images/health/icon-qq.gif" alt="1"/>
+                                </a>
+                            </h6>
+                            <div class="product-box-left-bd">
+                                <div class="imgbox">
+                                    <a href="">
+                                        <img src="../images/health/d9vh63mp.jpg" alt="1"/>
+                                    </a>
+                                </div>
+                                <div class="product-desc">
+                                    <div class="product-desc-hd">
+                                        <p>
+                                            <span class="Type">投保年龄</span>
+                                            <span class="TypeAgu">30天（不含）- 17周岁(含)</span>
+                                        </p>
+                                        <p>
+                                            <span class="Type">保障期限</span>
+                                            <span class="TypeAgu">1年</span>
+                                        </p>
+                                    </div>
+                                    <div class="desc-box">
+                                        <p class="desc text2">覆盖42种重疾+ 10种轻症，高达60万保额</p>
+                                    </div>
+                                    <div class="product-box-bd">
+                                        <p>重大疾病（42种）保险金10-40万</p>
+                                        <p>轻症疾病（10种）保险金0-20万</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box-left-ft">
+                                <span>最高可赔60万</span>
+                                <span>每天最低仅需0.18元</span>
+                                <span>无须体检，网上直投</span>
+                            </div>
+                        </div>
+                        <div class="product-box-right">
+                            <div class="price">
+                                <span class="style">￥ 66</span><span class="style1">/</span><span class="style"> 年</span><span class="style1">起</span>
+                            </div>
+                            <div>
+                                <button class="product-box-right-button">去看看</button>
+                            </div>
+                            <div class="product-box-right-ft">
+                                <p>
+                                    <span>近期销量：</span>
+                                    <span>1476单</span>
+                                </p>
+                                <p>近期评论
+                                    <span>13条</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="paging">
+                    <div class="paging-in">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">上一页</a>
+                            </li>
+                            <li class="page-item  active">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link " href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">下一页</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="portlet">
+                    <div class="sell_hot">
+                        <h3>热销排行</h3>
+                        <ul class="ul_menu">
+                            <li>
+                                <a class="sell_buy" href="javascript:;">购买最多</a>
+                            </li>
+                            <li>
+                                <a class="sell_browse" href="javascript:;">浏览最多</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tuijian_right">
+                    <ul>
+                        <li>
+                            <a href="">泰康康护一生重大疾病保险产品...</a>
+                        </li>
+                        <li>
+                            <a href="">e无忧-泰康重疾保</a>
+                        </li>
+                        <li>
+                            <a href="">泰爱保-百万医疗保(升级版)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ggw">
+                    <h3>浏览 <span class="ggw-sp1">健康险</span>还购买过</h3>
+                    <div class="ggw_div">
+                        <div>
+                            <img src="../images/health/20180326180305063.jpg" alt="1"/>
+                        </div>
+                        <p><a href="">e无忧-泰康重疾保</a></p>
+                    </div>
+                    <div class="ggw_div">
+                        <div>
+                            <img src="../images/health/20180326180622204.jpg" alt="1"/>
+                        </div>
+                        <p><a href="">泰康康护一生重大疾病保险产品...</a></p>
+                    </div>
+                    <div class="ggw_div">
+                        <div>
+                            <img src="../images/health/20180326180421562.jpg" alt="1"/>
+                        </div>
+                        <p><a href="">泰爱保-百万医疗保(升级版)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="liucheng">
+            <i class="liucheng-i1">&nbsp;</i>
+            <i class="liucheng-i2">&nbsp;</i>
+            <i class="liucheng-i3">&nbsp;</i>
+            <i class="liucheng-i4">&nbsp;</i>
+        </div>
+        <div class="xinshou">
+            <div>
+                <h4><i></i><span>新手上路</span></h4>
+                <dl>
+                    <dd><a href="#">免费注册</a></dd>
+                    <dd><a href="#">投保流程指南</a></dd>
+                    <dd><a href="#">24小时在线帮助</a></dd>
+                </dl>
+            </div>
+            <div>
+                <h4><i class="xinshou-i2"></i><span>支付保障</span></h4>
+                <dl>
+                    <dd><a href="#">支付说明</a></dd>
+                    <dd><a href="#">交易保障</a></dd>
+                    <dd><a href="#">使用说明</a></dd>
+                </dl>
+            </div>
+            <div>
+                <p class="xinshou-kefu"></p>
+            </div>
+            <div>
+                <h4><i class="xinshou-i3"></i ><span>特色服务</span></h4>
+                <dl>
+                    <dd><a href="#">在线保全</a></dd>
+                    <dd><a href="#">定点医院查询</a></dd>
+                    <dd><a href="#">免费邮箱</a></dd>
+                </dl>
+            </div>
+            <div class="xinshou-right-div">
+                <h4><i class="xinshou-i4"></i ><span>帮助中心</span></h4>
+                <dl>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">安全和保密</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="erweima">
+            <div class="kehuduan">
+                <img class="kehuduan-img" src="../images/health/tk_wm2.gif" alt=""/>
+                <div class="pgroup">
+                    <p class="pgroup-p1">泰康在线客户端</p>
+                    <p class="pgroup-p2">用着很方便！</p>
+                    <a href="javascript:;">
+                        <img src="../images/health/ip1.jpg" />
+                    </a>
+                    <a href="javascript:;">
+                        <img class="pgroup-ip2" src="../images/health/ip2.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="kehuduan">
+                <img class="kehuduan-img" src="../images/health/zkzx22w.png" alt=""/>
+                <div class="pgroup">
+                    <p class="pgroup-p1">泰康在线官方微信</p>
+                    <p class="pgroup-p2">关注我们的微信，促销活动随时掌握。</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul class="footer-bottom-ul">
+                <li>
+                    <a href="">供应商入口</a>
+                </li>
+                <li>
+                    <a href="">代理人专区</a>
+                </li>
+                <li>
+                    <a href="">团体营销支持</a>
+                </li>
+                <li>
+                    <a href="">加盟泰康</a>
+                </li>
+                <li>
+                    <a href="">关于我们</a>
+                </li>
+                <li class="footer-bottom-last-li">
+                    <a href="">泰康之家</a>
+                </li>
+            </ul>
+            <div class="footer-bottom-a">
+                <a href="javascript:;">中国保险行业协会人身保险产品查询</a>
+            </div>
+            <div class="footer-bottom-banquan">
+                <div>
+                    <p>版权所有©right;泰康在线财产保险股份有限公司未经许可不得复制、转载或摘编，违者必究!</p>
+                    <p>
+                        京ICP备09074081号-19 Copyright©right;Tk.cn Insurance CO.,LTD. All Rights Reserved
+                    </p>
+                </div>
+                <div class="footer-bottom-cxwz">
+                    <a href="javascript:;">
+                        <img src="../images/health/cert.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/header.js"></script>
+</body>
+</html>
